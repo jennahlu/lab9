@@ -6,6 +6,9 @@ def encode(password):
         encoded_password += str((int(char) + 3) % 10)
     return encoded_password
 
+def decode(encoded_password):
+    pass
+
 def main():
     while True:
         print("Menu")
